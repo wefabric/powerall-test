@@ -11,4 +11,7 @@ Test for the PowerAll API with large data sets
 For our test we had a site with a very large data set of 130.000 products. Because the PowerAll API products routes lack pagination you have to download all 130.000 products. If you run /index.php?products for the first time the json will be downloaded and stored locally 'products.json', to not stress the PowerAll API and quick testing.
 
 To get the products run the following url
-{DOMAIN}/index.php?products
+{DOMAIN}/index.php
+
+Because the file is more then 100mb the json file will be saved. If you want to download the products again, add the query parameter nocache=true
+{DOMAIN}/index.php?nocache=true
