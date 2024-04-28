@@ -57,7 +57,7 @@ class Client
         if(!$productCodes) {
             return $this->client()->get($this->createUrl('/products/all'), $args);
         }
-        return $this->client()->get('/products', $args);
+        return $this->client()->get($this->createUrl('/products'), $args);
     }
 
     /**

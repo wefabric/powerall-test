@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14b63cf4d369814b61d6bbfa6fc45483",
+    "content-hash": "cad5cb8f9e57cf89966ebb2f416b777b",
     "packages": [
         {
             "name": "cerbero/lazy-json",
@@ -47,12 +47,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Cerbero\\LazyJson\\": "src"
-                },
                 "files": [
                     "helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Cerbero\\LazyJson\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2029,5 +2029,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
